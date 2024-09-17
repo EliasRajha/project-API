@@ -1,0 +1,29 @@
+{
+    "name": "photo-gallery-kind-of-google",
+    "version": "1.0.0",
+    "description": "A web application to search and display random images using the Unsplash API and weather data using Open-Meteo.",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "live-server --port=3000",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/EliasRajha/project-API.git"
+    },
+    "keywords": [
+      "photo-gallery",
+      "unsplash",
+      "open-meteo",
+      "weather",
+      "javascript",
+      "api"
+    ],
+    "author": "Elias",
+    "license": "MIT",
+    "dependencies": {
+      "dotenv": "^16.0.0",
+      "live-server": "^1.2.1"
+    }
+  }
+  

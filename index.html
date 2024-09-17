@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Gallery Kind Of Google</title>
+    <link href="./public/style.css" rel="stylesheet" />
+    </head>
+<body>
+
+<header>
+    <nav>
+        <div class="nav">
+            <div class="nav-item" id="gmail">Gmail</div>
+            <div class="nav-item" id="afbeelding">Afbeelding</div>
+            <div class="nav-item" id="menu"><img src="public/images/menu.png" width="20px" alt="icon of menu"></div>
+            <div class="nav-item" id="inloggen">Inloggen</div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <img src="public/images/logo.png" id="logo" width="300px" alt="photo of google logo">
+    <div id="searchbar">
+        <div id="magnifyingglass"><img src="public/images/magnifyingglass.png" height="25px" alt="icon of magnifying glass"></div>
+        <input type="text" id="search-query" placeholder="Search for the type of image and just click enter">
+        <div id="mic"><img src="public/images/mic.png" height="25px" alt=" of microphone"></div>
+    </div>
+    <div id="image-container"></div>
+    <div id="loading-message">Loading...</div>
+
+    <div id="action">
+        <div><p id="search-image-btn">Google zoeken</p></div>
+        <div><p>Ik doe een gok</p></div>
+    </div>
+    <div id="language">Google aangeboden: <a href="#">Frysk</a></div>
+</main>
+
+<footer>
+    <div id="netherlands">Nederland</div>
+    <hr>
+    <div id="footer-bottom">
+        <div id="group1">
+            <ul>
+                <li>Over</li>
+                <li>Adverteren</li>
+                <li>Bedrijf</li>
+                <li>Hoe Google Zoeken werkt</li>
+            </ul>
+        </div>
+        <div id="group2">
+            <ul>
+                <li><img src="public/images/co2.png" height="15px" alt="a leaf icon about the environment"></li>
+                <li>Ons derde decennium van klimaatactie: dit is wat we doen</li>
+            </ul>
+        </div>
+        <div id="group3">
+            <ul>
+                <li>Privacy</li>
+                <li>Voorwaarden</li>
+                <li>Instellingen</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script type="module" src="src/app.js"></script>
+</body>
+</html>
